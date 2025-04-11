@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="sc.js"></script>
+    <div class="calculator">
+        <input type="text" id="result" class="result" disabled>
+        <div class="buttons">
+            <button onclick="clearResult()" class="operator">C</button>
+            <button onclick="apo('/')">/</button>  
+            <button onclick="apo('-')">-</button>
+            <button onclick="apo('*')">*</button>
+
+            <button onclick="anum('7')">7</button>
+            <button onclick="anum('8')">8</button>
+            <button onclick="anum('9')">9</button>
+            <button onclick="apo('+')">+</button>
+            
+            <button onclick="anum('6')">6</button>
+            <button onclick="anum('5')">5</button>
+            <button onclick="anum('4')">4</button>
+            <button onclick="anum('0')">0</button>
+            
+            <button onclick="anum('3')">3</button>
+            <button onclick="anum('2')">2</button>
+            <button onclick="anum('1')">1</button>
+            <button onclick="adot()" class="dot">.</button>
+            
+            <button onclick="calresult()" class="equals">=</button>
+        </div>
+    </div>
+      <div>      
+    <footer class="footer">
+        <p>WEB CALCULATOR</p>
+        
+    </footer>
+</div>
+
+</body>
+</html>
